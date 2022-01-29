@@ -1,0 +1,157 @@
+/* ==============
+   common styles 
+================*/
+
+@font-face {
+  font-family: "Proxima Nova Alt";
+  src: url("../fonts/FontsFree-Net-ProximaNovaAltRegular.ttf");
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Proxima Nova Alt";
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+/* ==============
+   header styles 
+================*/
+.inner_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.logo {
+  width: 150px;
+}
+.logo img {
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 35px;
+}
+nav ul li:last-child {
+  margin-right: 0px;
+}
+nav ul li a {
+  color: #1c4961;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  /* background-color: #4468e2; */
+  color: rgb(235, 76, 76);
+}
+
+.connect_btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4468e2;
+  border-radius: 17px;
+  padding: 7px 25px;
+  font-size: 19px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+#banner {
+  min-height: calc(100vh - 70px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner_banner h1 {
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.banner_text p {
+  max-width: 480px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.banner_explore_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 876px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.banner_box {
+  text-align: left;
+}
+.banner_box h4 {
+  color: #151515;
+  margin-bottom: 7px;
+}
+.banner_box p {
+  color: #7e7e7e;
+  font-size: 16px;
+}
+.banner_box .search_box {
+  display: flex;
+  align-items: center;
+  color: #7e7e7e;
+  font-size: 16px;
+}
+.banner_box .search_box input {
+  border: none;
+  outline: 0;
+}
+.explore_btn {
+  background-color: #4468e2;
+  font-size: 18px;
+  width: 187px;
+  height: 63px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.box_before {
+  position: relative;
+}
+
+.box_before::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #d6d4d4;
+  left: -80%;
+  bottom: 0;
+}
