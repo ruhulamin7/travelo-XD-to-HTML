@@ -177,3 +177,43 @@ nav ul li a:hover {
 .feature_box p {
   margin-top: 20px;
 }
+/* =============
+ destination section 
+ =================*/
+#destination {
+  margin-bottom: 150px;
+}
+.inner_destination {
+  text-align: center;
+}
+.inner_destination h2 {
+  margin-bottom: 50px;
+}
+.inner_destination ul {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  color: #163235;
+  font-size: 18px;
+}
+
+.inner_destination ul li {
+  list-style: none;
+
+  position: relative;
+}
+.inner_destination ul li:first-child::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  border-radius: 5px;
+}
