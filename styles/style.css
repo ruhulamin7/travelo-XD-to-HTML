@@ -155,3 +155,25 @@ nav ul li a:hover {
   left: -80%;
   bottom: 0;
 }
+
+/* =============
+ features section 
+ =================*/
+#features {
+  margin: 150px 0;
+}
+.inner_features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.feature_box {
+  padding: 20px;
+  box-shadow: 10px 40px 50px #e5e9f6;
+  border-radius: 20px;
+  flex-basis: 23%;
+}
+.feature_box p {
+  margin-top: 20px;
+}
