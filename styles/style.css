@@ -18,6 +18,9 @@ html {
   font-family: "Proxima Nova Alt";
   scroll-behavior: smooth;
 }
+body {
+  background-color: #f7fcff;
+}
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -182,14 +185,17 @@ nav ul li a:hover {
  =================*/
 #destination {
   margin-bottom: 150px;
+  padding: 50px 0;
+  background-color: #f1faff;
 }
 .inner_destination {
-  text-align: center;
+  color: #163235;
 }
 .inner_destination h2 {
   margin-bottom: 50px;
+  text-align: center;
 }
-.inner_destination ul {
+.inner_destination > ul {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid gray;
@@ -198,16 +204,15 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 10px 0;
   flex-wrap: wrap;
-  color: #163235;
   font-size: 18px;
 }
 
-.inner_destination ul li {
+.inner_destination > ul li {
   list-style: none;
 
   position: relative;
 }
-.inner_destination ul li:first-child::after {
+.inner_destination > ul li:first-child::after {
   content: "";
   height: 3px;
   width: 100%;
@@ -216,4 +221,57 @@ nav ul li a:hover {
   left: 0;
   bottom: -12px;
   border-radius: 5px;
+}
+
+.destination_items_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  margin-top: 50px;
+}
+.destination_item {
+  flex-basis: 30%;
+
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 10px 40px 50px rgb(242, 244, 255);
+}
+.destination_item p {
+  margin: 20px 0;
+}
+
+.des_image {
+  width: 100%;
+}
+.des_image img {
+  width: 100%;
+}
+
+.cost_container {
+}
+.d_icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.d_icon ul {
+  display: flex;
+  align-items: center;
+}
+
+.d_icon li {
+  list-style: none;
+  margin-right: 10px;
+}
+.total_cost {
+  font-size: 24px;
+}
+
+.trip_duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -35,6 +35,9 @@
     flex-basis: 48%;
     margin-bottom: 50px;
   }
+  .destination_item {
+    flex-basis: 48%;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -56,5 +59,8 @@
   .inner_destination ul li {
     flex-basis: 100%;
     margin-bottom: 30px;
+  }
+  .destination_item {
+    flex-basis: 100%;
   }
 }
