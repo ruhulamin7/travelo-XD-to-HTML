@@ -63,4 +63,10 @@
   .destination_item {
     flex-basis: 100%;
   }
+  .blogs_left {
+    flex-basis: 100%;
+  }
+  .blogs_right {
+    flex-basis: 100%;
+  }
 }

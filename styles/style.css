@@ -275,3 +275,72 @@ nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
 }
+/* =============
+ blogs section 
+ =================*/
+#blogs {
+  margin-bottom: 100px;
+}
+.inner_blogs h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.blogs_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blogs_left {
+  background-image: url("../images/blogs/blog-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogs_left h2 {
+  max-width: 300px;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+.blogs_right {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.right_top h3 {
+  max-width: 250px;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+.right_bottom h3 {
+  max-width: 350px;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+.right_top {
+  background-image: url("../images/blogs/blog-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_bottom {
+  background-image: url("../images/blogs/blog-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
