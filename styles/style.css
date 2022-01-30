@@ -209,8 +209,8 @@ nav ul li a:hover {
 
 .inner_destination > ul li {
   list-style: none;
-
   position: relative;
+  text-align: center;
 }
 .inner_destination > ul li:first-child::after {
   content: "";
@@ -279,7 +279,7 @@ nav ul li a:hover {
  blogs section 
  =================*/
 #blogs {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .inner_blogs h2 {
   text-align: center;
@@ -343,4 +343,57 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* =============
+ customers section 
+ =================*/
+#customers {
+  margin-bottom: 150px;
+}
+.inner_customers h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.customers_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: ;
+  flex-wrap: wrap;
+}
+.customer {
+  flex-basis: 49%;
+  box-shadow: 10px 40px 50px #e5e9f6;
+  border-radius: 18px;
+  padding: 40px 20px 30px 80px;
+}
+
+.customer > p {
+  margin-bottom: 30px;
+  position: relative;
+}
+.customer > p:before {
+  content: "";
+  background-image: url("../images/customers/quote.png");
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: -65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 20px; */
+}
+
+.customer_info {
+  display: flex;
+  align-items: center;
+}
+.customer_info img {
+  height: 60px;
+  margin-right: 20px;
+}
+.designation {
+  color: #848484;
 }

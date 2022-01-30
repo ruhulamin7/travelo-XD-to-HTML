@@ -40,6 +40,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .customer {
+    flex-basis: 90%;
+
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 570px) {
   .banner_explore_box {
     max-width: 80%;
