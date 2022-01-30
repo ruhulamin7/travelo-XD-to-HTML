@@ -144,6 +144,7 @@ nav ul li a:hover {
   color: #fff;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 .box_before {
   position: relative;
@@ -295,7 +296,7 @@ nav ul li a:hover {
   background-image: url("../images/blogs/blog-1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 340px;
+  height: 450px;
   width: 49%;
   display: flex;
   justify-content: center;
@@ -313,23 +314,22 @@ nav ul li a:hover {
   flex-direction: column;
   row-gap: 30px;
 }
-.right_top h3 {
+.blogs_right h3 {
   max-width: 250px;
   color: #fff;
   text-align: center;
   font-size: 25px;
 }
 .right_bottom h3 {
-  max-width: 350px;
-  color: #fff;
-  text-align: center;
-  font-size: 25px;
+  max-width: 400px;
 }
+
 .right_top {
   background-image: url("../images/blogs/blog-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 200px;
+
   width: 100%;
   display: flex;
   justify-content: center;
@@ -339,7 +339,7 @@ nav ul li a:hover {
   background-image: url("../images/blogs/blog-3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,7 +348,7 @@ nav ul li a:hover {
  customers section 
  =================*/
 #customers {
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 .inner_customers h2 {
   text-align: center;
@@ -366,6 +366,9 @@ nav ul li a:hover {
   box-shadow: 10px 40px 50px #e5e9f6;
   border-radius: 18px;
   padding: 40px 20px 30px 80px;
+  /* background-image: url("../images/customers/quote.png");
+  background-repeat: no-repeat;
+  background-position: 20px 40px; */
 }
 
 .customer > p {
@@ -380,10 +383,6 @@ nav ul li a:hover {
   width: 50px;
   position: absolute;
   left: -65px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-left: 20px; */
 }
 
 .customer_info {
@@ -396,4 +395,31 @@ nav ul li a:hover {
 }
 .designation {
   color: #848484;
+}
+/* =============
+ footer section 
+ =================*/
+footer {
+  /* margin-bottom: 100px; */
+}
+.inner_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e1e8f8;
+  padding: 50px 30px;
+}
+.inner_footer ul {
+  display: flex;
+}
+.inner_footer ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+.inner_footer ul li:last-child {
+  margin-right: 0px;
+}
+.inner_footer ul li a {
+  text-decoration: none;
+  color: #000;
 }
